@@ -5,7 +5,7 @@ if game.PlaceId == 606849621 then
     -- Create a section for the PlayerTab
     local PlayerSection = PlayerTab:NewSection("Player")
     -- Create a slider for the PlayerSection
-    PlayerSection:NewSlider("Walkspeed", "Change Walkspeed", 50, 16, function(s)
+    PlayerSection:NewSlider("Walkspeed", "Change Walkspeed", 250, 16, function(s)
         game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
     end)
 
