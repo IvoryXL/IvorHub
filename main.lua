@@ -11,7 +11,7 @@ if game.PlaceId == 606849621 then
             -- Change the players speed to s
             game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
             -- Pause the script for 0.756 seconds
-            wait(0.756)
+            wait(2.5)
         end
         
     end)
